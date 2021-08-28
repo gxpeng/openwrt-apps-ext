@@ -15,7 +15,7 @@ define Package/$(PKG_NAME)
   SECTION:=luci
   CATEGORY:=LuCI
   SUBMENU:=3. Applications
-  DEPENDS:=+kmod-cfg80211 +batctl-default +kmod-batman-adv +wpad-openssl
+  DEPENDS:=+kmod-cfg80211 +batctl-default +kmod-batman-adv +wpad-mesh-openssl
   TITLE:=LuCI support for easymesh
   PKGARCH:=all
 endef
